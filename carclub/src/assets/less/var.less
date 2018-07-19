@@ -1,0 +1,21 @@
+@primary:#ff88bb;
+@title:#333333;
+@sub-title:#999999;
+@background:#cccccc;
+
+[data-dpr='1'] body *{
+    font-size: 1em;
+}
+[data-dpr='2'] body *{
+    font-size: 2em;
+}
+[data-dpr='3'] body *{
+    font-size: 3em;
+}
+
+.height(@h){
+    height:@h / 72rem;
+}
+.width(@w){
+   width: @w /72rem;
+}
